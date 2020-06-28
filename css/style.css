@@ -1,0 +1,316 @@
+html {
+  box-sizing: border-box;
+}
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px; /* Для ширини букв */
+  background-color: #f5f7fa;
+  padding: 20px;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.main-container {
+  display: flex; /* display: flex; по замовчуванні = flex-direction: row; */
+  flex-direction: row;
+  background-color: #ffffff;
+  /* width: 1200px; */
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  margin: 0px auto;
+}
+
+.sidebar {
+  /* width: 370px; */
+  background-color: #1e2939;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.my-photo {
+  width: 370px;
+}
+
+.contacts-container {
+  /* padding-left: 40px;
+  padding-top: 40px; */
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contacts-title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.contacts-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.contacts-link {
+  color: #737a83;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  text-decoration: none;
+}
+
+.contacts-link-type {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+  /* Text style for "C:, E:" */
+  font-family: "Montserrat - Bold";
+  font-weight: 700;
+
+  letter-spacing: 0.42px;
+  margin-right: 10px;
+}
+
+.tech-skil-container {
+  /* background-color: rebeccapurple; */
+  /* padding-left: 40px; */
+  margin-top: 55px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.tech-skil-title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.tech-skil-item {
+  /* padding-left: 55px; */
+  /* width: 49px;
+  height: 11px; */
+  color: #ff6b08;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+.tech-skil-text {
+  color: #9da2a9;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.42px;
+}
+
+.soft-skil-container {
+  /* background-color: rebeccapurple; */
+  /* padding-left: 40px; */
+  margin-top: 55px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.soft-skil-title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.soft-skil-item {
+  /* padding-left: 55px; */
+  color: #ff6b08;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+.soft-skil-text {
+  color: #9da2a9;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.42px;
+}
+
+.about-container {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.about_me-container {
+  margin-bottom: 64px;
+}
+
+.about_me-profession {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.about_me-name {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+}
+
+.about_me-description {
+  color: #595959;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+  /* margin-bottom: 64px; */
+}
+
+.project-title,
+.work_expirence-title,
+.education-title {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.project-number {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.project-link {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.project-text {
+  color: #000000;
+  font-family: "Montserrat - Bold";
+  font-weight: 700;
+  letter-spacing: 0.42px;
+}
+/* Сучасніший метод для чорного кольору симовла */
+/* .project-text::before {
+  content: " [ ";
+  font-weight: bold;
+  color: #000000;
+}
+
+.project-text::after {
+  content: " ] ";
+  font-weight: bold;
+  color: #000000;
+} */
+
+.project-text-tech {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.project-dots {
+  color: #595959;
+}
+
+.project-number,
+.work-number {
+  margin-left: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.work-title,
+.education-title {
+  margin-top: 18px;
+  margin-bottom: 14px;
+}
+
+.work-title-col {
+  color: #ff6b08;
+  letter-spacing: 0.48px;
+}
+
+.work-date,
+.education-date {
+  color: #a8a8a8;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.education-date > b,
+.work-date > b {
+  color: #000000;
+  font-weight: 400;
+}
+
+.work-container {
+  margin-bottom: 30px;
+}
+
+.project-container,
+.work_expirence-container,
+.education-container {
+  margin-bottom: 55px;
+}
+
+.education-title {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.education-name {
+  color: #ff6b08;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.education-text {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

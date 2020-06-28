@@ -1,0 +1,169 @@
+@media (min-width: 600px) and (max-width: 1000px) {
+  body {
+    padding: 0px;
+    margin: 0;
+  }
+
+  .main-container {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .sidebar {
+    width: 45%;
+    color: #ffffff;
+  }
+
+  .my-photo {
+    display: none;
+  }
+
+  .contacts-container {
+    margin: 10px 10px 12px 20px;
+    font-size: 12px;
+  }
+
+  /* -------- Tech Skill -------- */
+  .tech-skil-container {
+    margin: 20px 10px 14px 20px;
+    line-height: 2;
+  }
+
+  /* -------- Soft Skill -------- */
+  .soft-skil-container {
+    margin: 20px 10px 14px 20px;
+    line-height: 2;
+  }
+
+  /*-------- About me container--- */
+
+  .about-container {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* --------about me ------------ */
+  h1 {
+    font-size: 35px;
+    margin: auto 20px;
+  }
+
+  h2 {
+    font-size: 14px;
+    margin: 40px 20px 0px 20px;
+  }
+
+  .about_me-container > p {
+    width: 90%;
+    margin: 10px 20px;
+  }
+
+  /* ------ Projects container ------ */
+
+  .project-container {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* -------work experience--------- */
+
+  .work_expirence-container {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* -------education container------- */
+  .education-container {
+    width: 90%;
+    margin: 10px 20px 40px 20px;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 320px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .main-container {
+    width: 100%;
+    flex-direction: column;
+    box-shadow: none;
+  }
+
+  .sidebar {
+    margin: 20px;
+    width: 90%;
+  }
+
+  .my-photo {
+    margin: 20px 30px 20px;
+  }
+  .my-photo > img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 30px;
+    color: #ff6b08;
+    margin-top: 10px;
+  }
+
+  /* -----contacts container------ */
+  .contacts-container {
+    margin: 10px 10px 17px 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  /* -------- Tech Skill -------- */
+  .tech-skil-container {
+    margin: 20px;
+  }
+
+  /* -------- Soft Skill -------- */
+  .soft-skil-container {
+    margin: 20px 20px 40px 20px;
+  }
+
+  /*-------- About me container--------- */
+
+  .about_me-container {
+    padding: 0;
+  }
+
+  /* ------ Projects container ------ */
+
+  .project-container {
+    margin: 20px;
+    width: 90%;
+  }
+
+  .project-dots {
+    display: none;
+  }
+
+  /* -------work experience--------- */
+
+  .work_expirence-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px;
+  }
+
+  /* ----education container------- */
+  .education-container {
+    width: 90%;
+    margin: 20px;
+  }
+}
