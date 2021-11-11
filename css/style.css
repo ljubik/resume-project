@@ -1,12 +1,6 @@
 html {
   box-sizing: border-box;
 }
-/* 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 
 *,
 *::before,
@@ -18,23 +12,22 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400px; /* Для ширини букв */
+  font-weight: 400px;
   background-color: #f5f7fa;
   padding: 20px;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
 .main-container {
-  display: flex; /* display: flex; по замовчуванні = flex-direction: row; */
+  display: flex;
   flex-direction: row;
   background-color: #ffffff;
-  /* width: 1200px; */
+
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
   margin: 0px auto;
 }
 
 .sidebar {
-  /* width: 370px; */
   background-color: #1e2939;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -42,11 +35,10 @@ body {
 
 .my-photo {
   width: 370px;
+  max-width: 100%;
 }
 
 .contacts-container {
-  /* padding-left: 40px;
-  padding-top: 40px; */
   margin-top: 60px;
   margin-left: 40px;
   margin-right: 40px;

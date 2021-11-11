@@ -104,8 +104,10 @@
   }
 
   .my-photo {
-    margin: 20px 30px 20px;
+    margin: 0px;
+    max-width: 100%;
   }
+
   .my-photo > img {
     width: 100%;
   }
